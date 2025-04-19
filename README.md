@@ -1,73 +1,80 @@
-# Welcome to your Lovable project
 
-## Project info
+# Savvy - AI-Powered Customer Support
 
-**URL**: https://lovable.dev/projects/4fbb214e-9825-49c8-af4a-d15c8568ef19
+Savvy is an intelligent AI chatbot platform designed to revolutionize customer support by seamlessly embedding on any website and providing personalized, real-time assistance without human intervention.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+### For Website Visitors
+- **Natural Conversational Interface**: Engage with an AI assistant that understands complex queries and responds in a natural, human-like manner
+- **Instant Support**: Get immediate answers to product questions, order tracking, returns, and more
+- **Personalized Assistance**: Receive tailored recommendations based on browsing behavior and previous interactions
+- **Multi-language Support**: Communicate in your preferred language with our multilingual capabilities
 
-**Use Lovable**
+### For Website Owners
+- **Simple Integration**: Add Savvy to any website with a simple code snippet or plugin
+- **Customizable Design**: Match Savvy's appearance to your brand's look and feel
+- **Comprehensive Analytics**: Monitor performance metrics including resolution rate, user satisfaction, and common queries
+- **Zero Maintenance**: Savvy continuously learns and improves without requiring manual updates
+- **Cost-effective**: Replace or supplement your human support team with a solution that scales with your business
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/4fbb214e-9825-49c8-af4a-d15c8568ef19) and start prompting.
+## Quick Start
 
-Changes made via Lovable will be committed automatically to this repo.
+### Integration Options
 
-**Use your preferred IDE**
+#### 1. Script Tag (Any Website)
+Add this code snippet just before the closing `</body>` tag:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+```html
+<script>
+  (function() {
+    var s = document.createElement("script");
+    s.type = "text/javascript";
+    s.async = true;
+    s.src = "https://cdn.savvy-ai.com/widget.js";
+    s.setAttribute("data-api-key", "YOUR_API_KEY");
+    document.head.appendChild(s);
+  })();
+</script>
 ```
 
-**Edit a file directly in GitHub**
+#### 2. WordPress Plugin
+1. Download the Savvy AI Chatbot plugin
+2. Go to your WordPress dashboard
+3. Navigate to Plugins > Add New > Upload Plugin
+4. Select the downloaded file and click "Install Now"
+5. Activate the plugin
+6. Go to Savvy AI settings and enter your API key
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+#### 3. Shopify App
+1. Visit the Shopify App Store
+2. Search for "Savvy AI Customer Support"
+3. Click "Add app"
+4. Follow the installation prompts
+5. Configure your chatbot in the Savvy dashboard
 
-**Use GitHub Codespaces**
+## Configuration Options
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Customize your Savvy instance through our dashboard:
 
-## What technologies are used for this project?
+- **Appearance**: Brand colors, chat position, bot avatar, and theme
+- **Behavior**: Welcome message, suggested prompts, and chat history settings
+- **Knowledge Base**: Connect your FAQs, product catalog, and policy documents
+- **AI Settings**: Fine-tune response style, tone, and context sensitivity
 
-This project is built with:
+## Technical Architecture
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Savvy combines several advanced technologies:
 
-## How can I deploy this project?
+1. **Real-time Data Processing**: Dynamically fetches and processes website content
+2. **Natural Language Understanding**: Advanced AI models comprehend complex customer queries
+3. **Context-aware Responses**: Maintains conversation history for coherent interactions
+4. **Secure Data Handling**: Compliant with GDPR and CCPA regulations
+5. **Continuous Learning**: Improves over time based on interactions and feedback
 
-Simply open [Lovable](https://lovable.dev/projects/4fbb214e-9825-49c8-af4a-d15c8568ef19) and click on Share -> Publish.
+## Support
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+For questions, customizations, or enterprise solutions:
+- Email: support@savvy-ai.com
+- Documentation: https://docs.savvy-ai.com
+- Demo: https://demo.savvy-ai.com

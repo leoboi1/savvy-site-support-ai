@@ -61,6 +61,16 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				savvy: {
+					primary: '#4F46E5', // Indigo for branding
+					secondary: '#10B981', // Emerald for accents
+					light: '#F9FAFB',
+					dark: '#111827',
+					bubble: {
+						user: '#F3F4F6',
+						bot: '#EBF5FF',
+					}
 				}
 			},
 			borderRadius: {
